@@ -1,0 +1,12 @@
+{
+  "app": {
+    "name": "Công cụ của tôi",
+    "version": "1.0.0"
+  },
+  "messages": {
+    "welcome": "Chào mừng quay trở lại!"
+  },
+  "items": [
+    { "id": 1, "label": "Thứ nhất" }
+  ]
+}

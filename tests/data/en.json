@@ -1,0 +1,23 @@
+{
+  "app": {
+    "name": "My Tool",
+    "version": "1.0.0",
+    "settings": {
+      "theme": "dark",
+      "language": "en",
+      "auto_save": true
+    }
+  },
+  "messages": {
+    "welcome": "Welcome back!",
+    "goodbye": "See you again",
+    "errors": {
+      "not_found": "Item not found",
+      "unauthorized": "Access denied"
+    }
+  },
+  "items": [
+    { "id": 1, "label": "First" },
+    { "id": 2, "label": "Second" }
+  ]
+}

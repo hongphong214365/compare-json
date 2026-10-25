@@ -1,0 +1,22 @@
+[project]
+name = "compare-json"
+version = "1.0.0"
+description = "Công cụ so sánh key và kiểm tra cú pháp JSON mạnh mẽ, hỗ trợ CLI và tương tác."
+readme = "README.md"
+authors = [{ name = "Phong" }]
+requires-python = ">=3.10"
+dependencies = [
+    "pyinstaller>=6.22.3",
+    "pytest>=9.1.1",
+]
+
+[project.scripts]
+compare-json = "json_checker.cli:main"
+compareJsonFiles = "json_checker.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/json_checker"]
